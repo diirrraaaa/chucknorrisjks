@@ -1,0 +1,2 @@
+require'chucknorris'
+require 'sinatra'
