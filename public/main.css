@@ -1,0 +1,14 @@
+.chuck{
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+body{
+  background-image: url(https://johnkimber.files.wordpress.com/2014/06/the-simpsons-s21e20-5-2-2010.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  font-size: 100px;
+}
