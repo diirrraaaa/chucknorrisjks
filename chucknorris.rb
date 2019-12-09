@@ -1,8 +1,11 @@
-require 'unirest'
-require 'uri'
+ require 'unirest'
+ require 'uri'
 class ChuckNorris
-  attr_accessor :categories, :first_name, :last_name
+  @@url = 'http://api.icndb.com/jokes/random'
+  attr_accessor :categories
   def initialize
+    @chuck = ChuckNorris.new
+    @chuck.jokes
     @categories = []
   end
   def self.random

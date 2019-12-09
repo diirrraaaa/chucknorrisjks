@@ -1,6 +1,6 @@
-source "http://www.rubygems.org" do
-  gem "sinatra"
-  gem "chucknorris"
-
-  gem "rest-client", ">= 1.8.0"
+source "https://rubygems.org" do
+    gem 'sinatra'
+    gem 'unirest'
+    gem 'json', '~> 1.8.1'
+  gem 'chucknorris', '~> 0.0.2'
 end
