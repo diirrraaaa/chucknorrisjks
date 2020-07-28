@@ -10,7 +10,7 @@ GEM
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    json (1.8.6)
+    json (2.3.0)
     mime-types (3.3)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
@@ -20,6 +20,11 @@ GEM
     rack (2.0.7)
     rack-protection (2.0.7)
       rack
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rest-client (2.1.0-x86-mingw32)
       ffi (~> 1.9)
       http-accept (>= 1.7.0, < 2.0)
@@ -41,11 +46,12 @@ GEM
       rest-client
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
   chucknorris (~> 0.0.2)!
-  json (~> 1.8.1)!
+  json (~> 2.3.0)!
   sinatra!
   unirest!
 
